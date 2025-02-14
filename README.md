@@ -18,7 +18,7 @@ García Criado, M., Myers-Smith, I.H., Bjorkman, A.D., Elmendorf, S.C., Normand,
 ## Data
 Climate data from CHELSA can be accessed at https://chelsa-climate.org/ and snow data is available at https://springernature.figshare.com/collections/ARCLIM_bioclimatic_indices_for_the_terrestrial_Arctic/6216368 
 
-Plant composition data is included here in the 'data' folder. Script 0_XXX shows the process of generating this input file, but the original raw files including the whole of the ITEX+ database are not provided in this repository. The full ITEX+ database will be available as part of an upcoming data paper led by Dr Anne Bjorkman (University of Gothenburg). 
+Plant composition data is included here in the 'data' folder. Script 00_data_prep shows the process of generating this input file, but the original raw files including the whole of the ITEX+ database are not provided in this repository. The full ITEX+ database will be available as part of an upcoming data paper, which will be available here: https://github.com/annebj/ITEX30_VegComp” 
 
 When a raw data file is not included in this repository, this is specified in the script as "this file is not available in the repo as it contains raw data". All summarised data files are provided in this repository as input files and enable the reproducibility of the figures and analyses of this manuscript.
 
@@ -35,4 +35,4 @@ Full model outputs for statistical analyses are stored in the `models` folder.
 ## Software requirements
 R version 4.2.0. or greater.
 
-R packages: `AMR, brms, broom, cowplot, data.table, dplyr, ggbpubr, ggplot2, ggOceanMaps, ggrepel, modelr, plyr, reshape2, rjags, rstan, RVAideMemoire, R2jags, stargazer, Taxonstand, tidyverse, vegan`
+R packages: `betapart, brms, broom, corrplot, cowplot, ggdist, ggOceanMaps, ggeffects, ggnewscale, ggpubr, ggrepel, ggtern, ggtext, modelr, paletteer, randomcoloR, Taxonstand, tidyverse, vegan, viridis`
