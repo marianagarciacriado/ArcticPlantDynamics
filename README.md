@@ -29,10 +29,14 @@ They can be followed in a sequential order (i.e., 1 to 8), with both 0_ scripts 
 ## Figures
 The figures generated in R are stored in the `figures` folder.
 
+Full panels of the main manuscript figures are arranged in PowerPoint. ED Figure 2 (conceptual figure) was not made in R and is thus not included here.
+
 ## Model outputs
 Full model outputs for statistical analyses are stored in the `models` folder.
+
+Model files bigger than the GitHub size limit (>50 mb) cannot be uploaded and thus are not included here. 
 
 ## Software requirements
 R version 4.2.0. or greater.
 
-R packages: `betapart, brms, broom, corrplot, cowplot, ggdist, ggOceanMaps, ggeffects, ggnewscale, ggpubr, ggrepel, ggtern, ggtext, modelr, paletteer, randomcoloR, Taxonstand, tidyverse, vegan, viridis`
+R packages: `ape, betapart, brms, broom, corrplot, cowplot, ggdist, ggOceanMaps, ggeffects, ggnewscale, ggpubr, ggrepel, ggtern, ggtext, modelr, paletteer, randomcoloR, stargazer, Taxonstand, tidyverse, vegan, viridis`
