@@ -13,28 +13,28 @@ Data output from this manuscript are publicly available using a Creative Commons
 The data and code for this manuscript will be mantained at this GitHub repository (https://github.com/marianagarciacriado/ArcticPlantDynamics). 
 
 ## Citation
-García Criado, M., Myers-Smith, I.H., Bjorkman, A.D., Elmendorf, S.C., Normand, S., Aastrup, P., Aerts, R., Alatalo, J.M., Baeten, L., Björk, R.G., Björkman, M.P., Boulanger-Lapointe, N., Butler, E.E., Cooper, E.J., Cornelissen, J.H.C., Daskalova, G.N., Fadrique, B., Forbes, B.C., Henry, G.H.R., Hollister, R.D., Høye, T.T., Jacobsen, I.B.D., Jägerbrand, A.K., Jónsdóttir, I.S., Kaarlejärvi, E., Khitun, O., Klanderud, K., Kolari, T.H.M., Lang, S.I., Lecomte, N., Lenoir, J., Macek, P., Messier, J., Michelsen, A., Molau, U., Muscarella, R., Nielsen, M.-L., Petit Bon, M., Post, E., Raundrup, K., Rinnan, R., Rixen, C., Ryde, I., Serra-Diaz, J.M., Schaepman-Strub, G., Schmidt, N.M., Schrodt, F., Sjögersten, S., Steinbauer, M.J., Stewart, L., Strandberg, B., Tolvanen, A., Tweedie, C.E. and Vellend, M. 
+García Criado, M., Myers-Smith, I.H., Bjorkman, A.D., Elmendorf, S.C., Normand, S., Aastrup, P., Aerts, R., Alatalo, J.M., Baeten, L., Björk, R.G., Björkman, M.P., Boulanger-Lapointe, N., Butler, E.E., Cooper, E.J., Cornelissen, J.H.C., Daskalova, G.N., Fadrique, B., Forbes, B.C., Henry, G.H.R., Hollister, R.D., Høye, T.T., Jacobsen, I.B.D., Jägerbrand, A.K., Jónsdóttir, I.S., Kaarlejärvi, E., Khitun, O., Klanderud, K., Kolari, T.H.M., Lang, S.I., Lecomte, N., Lenoir, J., Macek, P., Messier, J., Michelsen, A., Molau, U., Muscarella, R., Nielsen, M.-L., Petit Bon, M., Post, E., Raundrup, K., Rinnan, R., Rixen, C., Ryde, I., Serra-Diaz, J.M., Schaepman-Strub, G., Schmidt, N.M., Schrodt, F., Sjögersten, S., Steinbauer, M.J., Stewart, L., Strandberg, B., Tolvanen, A., Tweedie, C.E. and Vellend, M. (2025). Plant diversity dynamics over space and time in a warming Arctic. Nature.
 
 ## Data
 Climate data from CHELSA can be accessed at https://chelsa-climate.org/ and snow data is available at https://springernature.figshare.com/collections/ARCLIM_bioclimatic_indices_for_the_terrestrial_Arctic/6216368 
 
-Plant composition data is included here in the 'data' folder. Script 00_data_prep shows the process of generating this input file, but the original raw files including the whole of the ITEX+ database are not provided in this repository. The full ITEX+ database will be available as part of an upcoming data paper, which will be available here: https://github.com/annebj/ITEX30_VegComp
+Plant composition data is included here in the 'data' folder. Script 00_data_prep shows the process of generating the main input file ('itex_dec22'), but the original raw files including the whole of the ITEX+ database are not provided in this repository. The full ITEX+ database will be available as part of an upcoming data paper, which will be available here: https://github.com/annebj/ITEX30_VegComp
 
 When a raw data file is not included in this repository, this is specified in the script as "this file is not available in the repo as it contains raw data". All summarised data files are provided in this repository as input files and enable the reproducibility of the figures and analyses of this manuscript.
 
 ## Scripts
 All the analyses undertaken for this manuscript are split between multiple R scripts within the `scripts`folder.
-They can be followed in a sequential order (i.e., 1 to 8), with both 0_ scripts showing the process of generating summarised input files.
+They can be followed in a sequential order (i.e., 1 to 9), with the 0_ script showing the process of generating summarised input files.
 
 ## Figures
 The figures generated in R are stored in the `figures` folder.
 
-Full panels of the main manuscript figures are arranged in PowerPoint. ED Figure 2 (conceptual figure) was not made in R and is thus not included here.
+Full panels of the main manuscript figures are arranged in PowerPoint. ED Figure 2 (conceptual figure) was not made in R and thus is not included here.
 
 ## Model outputs
 Full model outputs for statistical analyses are stored in the `models` folder.
 
-Model files bigger than the GitHub size limit (>50 mb) cannot be uploaded and thus are not included here. 
+Model files bigger than the GitHub size limit (>50 Mb) cannot be uploaded and thus are not included here. 
 
 ## Software requirements
 R version 4.2.0. or greater.
