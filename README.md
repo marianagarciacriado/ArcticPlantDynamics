@@ -24,7 +24,7 @@ When a raw data file is not included in this repository, this is specified in th
 
 ## Scripts
 All the analyses undertaken for this manuscript are split between multiple R scripts within the `scripts`folder.
-They can be followed in a sequential order (i.e., 1 to 9), with the 0_ script showing the process of generating summarised input files.
+They can be followed in a sequential order (i.e., 1 to 9), with the '00_data_prep' script showing the process of generating summarised input files.
 
 ## Figures
 The figures generated in R are stored in the `figures` folder.
