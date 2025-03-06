@@ -833,7 +833,7 @@ fig.s7a <- plot_grid(arrow.plot.onlyincreases, labels = c("a"), label_size = 14)
 # ED Fig 7: together with arrow plot (7a, created below)
 (fig.s7 <- plot_grid(fig.s7a, rchg.out.panel, ncol = 1, nrow = 2, rel_heights = c(1.5, 1),
                      align = "hv"))
-ggplot2::ggsave(fig.s7, filename = "figures/figure_s7.png", 
+ggplot2::ggsave(fig.s7, filename = "figures/figure_s7.jpg", 
                 width = 18, height = 14, units = "cm")
 
 

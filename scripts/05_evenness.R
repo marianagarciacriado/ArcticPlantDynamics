@@ -534,5 +534,5 @@ colnames(even.pers.predXX) = c('EvennessMean', 'fit', 'lwr', 'upr', 'group')
 ## ED Fig 8
 fig.s8 <- plot_grid(prop.pool.panel, even.extcol.panel, duration.panel,
                     ncol = 1, nrow = 3, align = "h")
-ggplot2::ggsave(fig.s8, filename = "scripts/mgarciacriado/final_figures/figure_s8.png", 
+ggplot2::ggsave(fig.s8, filename = "figures/figure_s8.jpg", 
                 width = 18, height = 24, units = "cm")
